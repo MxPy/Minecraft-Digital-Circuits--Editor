@@ -4,6 +4,8 @@ from amulet.utils.world_utils import block_coords_to_chunk_coords
 # load the level
 level = amulet.load_level("test")
 
+print(level)
+
 # lets get the block at -12, -60, -3 which in the world I am testing in is a redstone torch.
 x, y, z = -15, -60, -4
 
